@@ -32,7 +32,7 @@ class App extends Component {
       signInSuccess: () => false
     }
   }
-
+//
   componentDidMount = () => {
 
     firebase.auth().onAuthStateChanged(user =>{
