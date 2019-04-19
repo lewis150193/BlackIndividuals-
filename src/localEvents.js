@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import './App.css';
-import './Footer';
+import '../App/App.css';
+import './Footer/Footer';
 import logo from './logo.png';
 import common from './img/common.jpg';
-import { Footer } from './Footer';
+import { Footer } from './Footer/Footer';
 import {Carousel} from './carousel';
 import {NavBar} from './navbar';
 

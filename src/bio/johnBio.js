@@ -1,12 +1,11 @@
-import React, {Component} from 'react'
-import alsahid from "./img/alsahid.jpg";
+import React, { Component } from "react";
+import John from "../img/john.jpg";
 
-export class AlsBio extends Component{
-    render() {
-        
-        return (
-      <div className="col-sm order-1">
-        <img src={alsahid} className="alsahid" alt="alsahid" class="img-thumbnail"></img>   
+export class JohnFBio extends Component {
+  render() {
+    return (
+        <div className="col-sm order-1">
+        <img src={John} className="john" alt="john" class="img-thumbnail"></img>   
         <div className="col-sm order-2">
                 <p>
                   Pretium quis volutpat ultrices nam senectus nisl inceptos risus
@@ -20,7 +19,7 @@ export class AlsBio extends Component{
                 </button>
                 </div> 
       </div>
-        );
-    }
+    );
+  }
 }
-export default AlsBio;
+export default JohnFBio;
