@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import nicki from './img/nicki.jpg';
-import nas from './img/nas.jpg';
-import jcole from './img/jcole.jpg';
+import nicki from '../img/nicki.jpg';
+import nas from '../img/nas.jpg';
+import jcole from '../img/jcole.jpg';
 import "../Carousel/carousel.css";
 
 export class Carousel extends Component{

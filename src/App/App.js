@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import "./App.css";
-import logo from "./logo.png";
+import logo from "../logo.png";
 
 import { Footer } from "../Footer/Footer";
 import { Carousel } from "../Carousel/carousel";
 import { NavBar } from "../Navbar/navbar";
-import { Testimony } from "./testimonials/testimonial";
+import { Testimony } from "../testimonials/testimonial";
 import firebase from "firebase";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
 

@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import '../App/App.css';
+import '../src/App/App.css';
 import './Footer/Footer';
 import logo from './logo.png';
 import common from './img/common.jpg';
 import { Footer } from './Footer/Footer';
-import {Carousel} from './carousel';
-import {NavBar} from './navbar';
+import {Carousel} from '../src/Carousel/carousel';
+import {NavBar} from '../src/Navbar/navbar';
 
 
 class localEvents extends Component {

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Lewis from "./img/lewis.jpg";
+import Lewis from "../img/lewis.jpg";
 
 export class LewisWBio extends Component {
   render() {

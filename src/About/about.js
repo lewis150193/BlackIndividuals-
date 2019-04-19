@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import "App.css";
+import "../App/App.css";
 
 import { AlsBio } from "./alsahidBio";
 import { LewisWBio } from "./lewisBio";
 import { JohnFBio } from "./johnBio";
-import { Footer } from "./Footer/Footer";
+import { Footer } from "../Footer/Footer";
 import { NavBar } from "../Navbar/navbar";
-import ULottie from "./components/world";
+import ULottie from "../components/world";
 import { FreBseAuth } from "../Authentication/FreBseAuthentication";
 
 class About extends Component {
