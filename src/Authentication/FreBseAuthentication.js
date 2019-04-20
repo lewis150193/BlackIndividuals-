@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import firebase from "firebase"
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth"
-import logo from "../logo.png";
+import './firebaseui-styling.global.css';
 
 firebase.initializeApp({
   apiKey: "AIzaSyApqpaEG3Iz9a7gPTgPjZ7cX5JppLKom4A",
@@ -34,8 +34,8 @@ export class FreBseAuth extends Component {
   }
   render() {
     return (
-      <div className="AppS">
-        <header className="App-headerR">
+      <div className="Apps">
+        <header className="authenticate">
           {this.state.isSignedIn ?(
             <span>
             <h1 className = "WelcomeSignIn">Welcome {firebase.auth().currentUser.displayName}</h1>
@@ -50,12 +50,7 @@ export class FreBseAuth extends Component {
             firebaseAuth = {firebase.auth()}
             />
           )}        
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title display-4 text-center">
-            Black Individuals
-            <br />
-            <small className="text-muted">Personal Blog </small>
-          </h1>
+
         </header>
         <hr />
         <div />

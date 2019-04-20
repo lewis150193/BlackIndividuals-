@@ -4,7 +4,7 @@ import "../App/App.css";
 import { AlsBio } from "./alsahidBio";
 import { LewisWBio } from "./lewisBio";
 import { JohnFBio } from "./johnBio";
-import { Footer } from "../Footer/Footer";
+import { Footer } from "../components/Footer";
 import { NavBar } from "../Navbar/navbar";
 import ULottie from "../components/world";
 import { FreBseAuth } from "../Authentication/FreBseAuthentication";

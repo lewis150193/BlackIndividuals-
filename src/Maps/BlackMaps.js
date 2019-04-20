@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Footer } from "../Footer/Footer";
+import { Footer } from "../components/Footer";
 import { NavBar } from "../Navbar/navbar";
 import ULottie from "../components/world";
 import Mapspage from './mapspage';

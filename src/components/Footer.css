@@ -1,0 +1,31 @@
+.social a {
+  font-size: 4.5em;
+  padding: 3rem;
+}
+.fa-facebook {
+  padding: 3rem;
+  outline: dashed;
+}
+.fa-twitter {
+  padding: 3rem;
+}
+.fa-google-plus-g {
+  padding: 3rem;
+}
+.fa-instagram {
+  padding: 3rem;
+}
+.webkit-file-upload-button .button {
+  border: none;
+}
+
+.fa-youtube {
+  padding: 3rem;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover,
+.fa-youtube:hover {
+  color: #d5d5d5;
+}
