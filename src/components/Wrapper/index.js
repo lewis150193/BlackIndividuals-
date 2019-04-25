@@ -1,16 +1,15 @@
-// import { React, ReactNode } from "react";
-// import { Footer } from "../Footer"; 
-// import { Header } from "./Header";
-
-// type Props = {
-//   children: ReactNode;
-
-// };
-// export const Wrapper = ({ children }: Props) => (
-
-//  <div >
-//     <Header />
-//     <div>{children}</div>
-//     <Footer />
-//   </div>
-// );
+import { React, ReactNode } from "react";
+import { Footer } from "../Footer";
+import { Header } from "./Header";
+class Wrapper extends Component({ children }) {
+  render() {
+    const { count } = this.state;
+    return (
+      <div>
+        <Header />
+        <div>{children}</div>
+        <Footer />
+      </div>
+    );
+  }
+}

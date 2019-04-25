@@ -34,11 +34,11 @@ export class FreBseAuth extends Component {
   }
   render() {
     return (
-      <div className="Apps">
+      <div className= "boxAuth">
         <header className="authenticate">
           {this.state.isSignedIn ?(
             <span>
-            <h1 className = "WelcomeSignIn">Welcome {firebase.auth().currentUser.displayName}</h1>
+            <h3 className = "WelcomeSignIn">Welcome {firebase.auth().currentUser.displayName}</h3>
             <button className ="SignOutBtn btn btn-outline-warning" onClick = {()=>firebase.auth().signOut()}>Sign Out!</button> 
             <img  className = "ProfilePic"alt = "profile "
             src = {firebase.auth().currentUser.photoURL}/>

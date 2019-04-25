@@ -68,14 +68,26 @@
   right: 0;
 }
 
-.WelcomeSignIn{
+.WelcomeSignIn {
   margin: auto;
   display: flex;
+  width: 100px;
   align-items: center;
+  outline: dashed;
 }
 
+.boxAuth{
+ position: absolute;
+  outline: dashed;
+  top: 80px;
+  right: 0;
 
+
+}
 .App-link {
   color: #61dafb;
 }
 
+authenticate{
+  outline: dashed;
+}

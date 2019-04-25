@@ -25,7 +25,7 @@ const Button = styles.button`
   const Navbar = (props) => (
             <div className="navbar">
             <Button onClick={() => props.history.push('/')}><i className="fa fa-fw fa-envelope"></i>Home</Button>
-            <Button onClick={() => props.history.push('/about')}><i className="fa fa-fw fa-envelope"></i> About</Button>
+            <Button onClick={() => props.history.push('/About')}><i className="fa fa-fw fa-envelope"></i> About Us</Button>
             <Button onClick={() => props.history.push('/maps')}><i className="fa fa-fw fa-envelope"></i> Maps</Button>
             <Button onClick={() => props.history.push('/locslpage')}><i className="fa fa-fw fa-user"></i> Local events</Button>
           </div>
